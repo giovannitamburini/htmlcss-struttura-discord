@@ -200,3 +200,61 @@ main #last-section #last-section-button #last-link {
     background-color: darkblue;
     margin:0 auto;
 }
+
+footer {
+    background-color: darkslategrey;
+    height: 642px;
+}
+
+footer #footer-1 {
+    max-width: 1230px;
+    margin:0 auto;
+    padding-top: 75px;
+    display: flex;
+    flex-direction:row;
+    /* align-items: center; */
+    gap: 110px;
+    margin-bottom: 35px;
+    background-color: darkorange;
+}
+
+footer #footer-type-1 {
+    height: 170px;
+    width: 235px;
+    background-color: pink;
+}
+
+footer .footer-type-2 {
+    height: 300px;
+    width: 150px;
+    background-color: palevioletred;
+}
+
+footer #footer-2 {
+    max-width: 1230px;
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 0 auto;
+    margin-top: 35px;
+    background-color: darkorange;
+}
+
+footer hr {
+    max-width: 1230px;
+    font-size: 1px;
+    color: aliceblue;
+    margin: 0 auto;
+}
+
+footer #footer-2 #logo-2 {
+    height: 40px;
+    width: 140px;
+    background-color:bisque;
+}
+
+footer #footer-2 #registration {
+    height: 40px;
+    width: 90px;
+    background-color: antiquewhite;
+}
