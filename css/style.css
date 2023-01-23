@@ -96,3 +96,51 @@ header #header-button #open-in-browser {
     background-color: darkgray;
     border: none;
 }
+
+
+main section {
+    max-width: 1230px;
+    margin: 0 auto;
+    min-height: 680px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 65px;
+}
+
+main #section-1 .section-img {
+    height: 440px;
+    width: 630px;
+    background-color: red;
+}
+
+main #section-1 .section-text {
+    height: 440px;
+    width: 420px;
+    background-color:#FF69B4;
+}
+
+main #section-2 .section-img {
+    height: 440px;
+    width: 630px;
+    background-color: red;
+}
+
+main #section-2 .section-text {
+    height: 440px;
+    width: 420px;
+    background-color:#FF69B4;
+}
+main #section-3 .section-img {
+    height: 440px;
+    width: 630px;
+    background-color: red;
+}
+
+main #section-3 .section-text {
+    height: 440px;
+    width: 420px;
+    background-color:#FF69B4;
+}
