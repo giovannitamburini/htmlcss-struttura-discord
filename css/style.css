@@ -1,0 +1,42 @@
+nav {
+    height: 77px;
+    max-width: 1230px;
+    background-color:aquamarine;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+}
+
+nav #logo {
+    width: 150px;
+    height: 77px;
+    background-color: blue;
+}
+
+nav #link {
+    width: 550px;
+    height: 77px;
+    background-color: blue;
+}
+
+nav #link ul {
+    list-style-type: none;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav #link ul li {
+    width: 80px;
+    height: 30px;
+    background-color: lightcoral;
+}
+
+nav #login {
+    width: 110px;
+    height: 77px;
+    background-color: blue;
+}
