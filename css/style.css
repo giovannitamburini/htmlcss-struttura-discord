@@ -1,13 +1,16 @@
 
 /* navbar */
 #background-top {
-    background-color: black;
+    background-color:darkolivegreen;
     height: 570px;
+}
+
+nav, main, footer #footer-1, footer #footer-2, footer hr {
+    max-width: 1230px;
 }
 
 nav {
     height: 77px;
-    max-width: 1230px;
     background-color:aquamarine;
     margin: 0 auto;
     display: flex;
@@ -19,13 +22,12 @@ nav {
 nav #logo {
     width: 150px;
     height: 77px;
-    background-color: blue;
+    background-color: darkorchid;
 }
 
 nav #link {
     width: 550px;
     height: 77px;
-    background-color: blue;
 }
 
 nav #link ul {
@@ -33,6 +35,7 @@ nav #link ul {
     height: 100%;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     gap: 10px;
@@ -47,7 +50,7 @@ nav #link ul li {
 nav #login {
     width: 110px;
     height: 77px;
-    background-color: blue;
+    background-color: darkorchid;
 }
 /* /navbar */
 
@@ -80,6 +83,7 @@ header #header-button {
     padding-top: 10px;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
 }
@@ -99,7 +103,6 @@ header #header-button #open-in-browser {
 
 main {
     margin: 0 auto;
-    max-width: 1230px;
 }
 
 main #section-1, main #section-2, main #section-3{
@@ -107,6 +110,7 @@ main #section-1, main #section-2, main #section-3{
     border: 1px solid black;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 65px;
@@ -182,7 +186,6 @@ main #last-section #last-section-img {
 
 main #last-section #last-section-button {
     width: 650;
-    /* margin: 0 auto; */
 }
 
 main #last-section #last-section-button #strong{
@@ -193,7 +196,6 @@ main #last-section #last-section-button #strong{
     margin-bottom: 30px;
 }
 
-/* non riesco a centrare il bottone, e non capisco il perchè */
 main #last-section #last-section-button #last-link {
     height: 55px;
     width: 200px;
@@ -207,12 +209,11 @@ footer {
 }
 
 footer #footer-1 {
-    max-width: 1230px;
     margin:0 auto;
     padding-top: 75px;
     display: flex;
     flex-direction:row;
-    /* align-items: center; */
+    /* flex-wrap: wrap; */
     gap: 110px;
     margin-bottom: 35px;
     background-color: darkorange;
@@ -231,9 +232,9 @@ footer .footer-type-2 {
 }
 
 footer #footer-2 {
-    max-width: 1230px;
     display:flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     margin: 0 auto;
     margin-top: 35px;
@@ -241,7 +242,6 @@ footer #footer-2 {
 }
 
 footer hr {
-    max-width: 1230px;
     font-size: 1px;
     color: aliceblue;
     margin: 0 auto;
